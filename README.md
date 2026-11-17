@@ -37,7 +37,7 @@ The first module required recovering the password of the supplied protected PDF 
 
 ### Workflow
 
-1. Downloaded and installed John the Ripper.
+1. Downloaded John the Ripper.
 2. Downloaded and installed the Johnny graphical interface.
 3. Configured Johnny to use the `john.exe` executable from John the Ripper's `run` folder.
 4. Used a PDF hash-extraction tool to obtain the hash from the supplied protected PDF.
@@ -53,13 +53,6 @@ The first module required recovering the password of the supplied protected PDF 
 - The extracted hash must be complete and in the expected format for the tool to process it.
 - Recovery time depends on factors such as password complexity and available computing resources.
 
-**Evidence:** Add your own screenshots in `evidence/jtr/` and link them below.
-
-- `evidence/jtr/01-johnny-configuration.png`
-- `evidence/jtr/02-pdf-hash-extraction.png`
-- `evidence/jtr/03-hash-file-loaded.png`
-- `evidence/jtr/04-johnny-attack-results.png`
-- `evidence/jtr/05-pdf-opened.png`
 
 ## Project Module 2 – Password Cracking with Networkwalks Tools
 
@@ -90,13 +83,6 @@ The objective was to extract the hash from the supplied protected PDF and submit
 - Password-recovery time can vary depending on the password's simplicity or complexity.
 - Browser-based tools can make a practical password-auditing exercise accessible without installing a desktop cracking application.
 
-**Evidence:** Add your own screenshots in `evidence/networkwalks-tools/` and link them below.
-
-- `evidence/networkwalks-tools/01-hash-calculator.png`
-- `evidence/networkwalks-tools/02-extracted-pdf-hash.png`
-- `evidence/networkwalks-tools/03-password-cracker-input.png`
-- `evidence/networkwalks-tools/04-password-cracker-result.png`
-- `evidence/networkwalks-tools/05-pdf-opened.png`
 
 ## What I learned in Week 3
 
@@ -118,30 +104,6 @@ The hands-on exercises were especially interesting because I could see how the t
 - Avoid reusing passwords across accounts or documents.
 - Only perform password-recovery or password-auditing activities where you have clear authorisation.
 
-## Suggested repository structure
-
-```text
-Week-3-Password-Cracking/
-├── README.md
-├── evidence/
-│   ├── jtr/
-│   │   ├── 01-johnny-configuration.png
-│   │   ├── 02-pdf-hash-extraction.png
-│   │   ├── 03-hash-file-loaded.png
-│   │   ├── 04-johnny-attack-results.png
-│   │   └── 05-pdf-opened.png
-│   └── networkwalks-tools/
-│       ├── 01-hash-calculator.png
-│       ├── 02-extracted-pdf-hash.png
-│       ├── 03-password-cracker-input.png
-│       ├── 04-password-cracker-result.png
-│       └── 05-pdf-opened.png
-└── project-guides/
-    ├── W3-PM1-JTR.pdf
-    └── W3-PM2-Networkwalks-Tools.pdf
-```
-
-*Only include project guides, screenshots, and other materials that you are permitted to share. Do not upload recovered passwords, live password hashes, private documents, or other sensitive information to a public repository.*
 
 ## Conclusion
 
